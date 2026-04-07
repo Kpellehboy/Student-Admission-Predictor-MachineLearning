@@ -1,6 +1,6 @@
-# 🎓 Student Admission Count Predictor (Random Forest Regression)
+#  Student Admission Count Predictor (Random Forest Regression)
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project implements an **Ensemble Learning** model, the **Random Forest Regressor**, to predict the **number of students accepted for admission** based on historical entrance data.
 
@@ -9,7 +9,7 @@ This project implements an **Ensemble Learning** model, the **Random Forest Regr
 ### **Key Artifacts**
 * `Admission_Prediction_Model.ipynb`: The Jupyter Notebook containing the full code pipeline.
 
-## 🛠️ Tools and Libraries Used
+##  Tools and Libraries Used
 
 | Category | Tool/Library | Purpose |
 | :--- | :--- | :--- |
@@ -19,7 +19,7 @@ This project implements an **Ensemble Learning** model, the **Random Forest Regr
 | **Visualization** | **Matplotlib** / **Seaborn** | Creating the charts to visually assess model performance (Actual vs. Predicted plot). |
 | **Algorithm** | `sklearn.ensemble.RandomForestRegressor` | The **Ensemble Model** used for training, providing high predictive power. |
 
-## ⚙️ Methodology: The Advanced Pipeline
+##  Methodology: The Advanced Pipeline
 
 1.  **Data Preparation:** Defined Features ($X$) and Target ($y$), ensuring data quality.
 2.  **Data Splitting:** Used `train_test_split` (80/20) to create dedicated Training and Testing sets.
@@ -42,7 +42,7 @@ This project implements an **Ensemble Learning** model, the **Random Forest Regr
 ![WhatsApp Image 2025-11-13 at 18 41 13_9eeb4cd3](https://github.com/user-attachments/assets/9c0c8eb3-2175-42bd-9dca-cda6b8557ba2)
 
 
-## 🚀 Next Steps and Future Improvements
+##  Next Steps and Future Improvements
 
 * **Hyperparameter Tuning:** Use **Grid Search** or **Randomized Search** to find the optimal settings for the Random Forest (e.g., number of trees, max depth) to squeeze out maximum accuracy.
 * **Data Scaling:** While Random Forest is less sensitive, applying `StandardScaler` to features can still be tested as a potential performance boost.
